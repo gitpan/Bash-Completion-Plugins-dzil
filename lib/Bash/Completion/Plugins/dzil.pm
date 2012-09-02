@@ -1,7 +1,7 @@
 ## no critic (RequireUseStrict)
 package Bash::Completion::Plugins::dzil;
 {
-  $Bash::Completion::Plugins::dzil::VERSION = '0.01';
+  $Bash::Completion::Plugins::dzil::VERSION = '0.02';
 }
 
 ## use critic (RequireUseStrict)
@@ -11,7 +11,7 @@ use parent 'Bash::Completion::Plugins::App::Cmd';
 
 use Bash::Completion::Utils qw(command_in_path);
 
-sub should_complete {
+sub should_activate {
     return [ grep { command_in_path($_) } qw(dzil) ];
 }
 
@@ -29,7 +29,7 @@ Bash::Completion::Plugins::dzil - Bash::Completion support for Dist::Zilla
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -43,7 +43,7 @@ L<Bash::Completion>, L<Dist::Zilla>
 
 =over
 
-=item should_complete
+=item should_activate
 
 =item command_class
 

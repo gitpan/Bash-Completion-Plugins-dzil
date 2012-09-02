@@ -19,7 +19,7 @@ my %module_build_args = (
     "Rob Hoelz <rob\@hoelz.ro>"
   ],
   "dist_name" => "Bash-Completion-Plugins-dzil",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Bash::Completion::Plugins::dzil",
   "recommends" => {},
@@ -27,7 +27,7 @@ my %module_build_args = (
   "requires" => {
     "Bash::Completion::Plugins::App::Cmd" => 0,
     "Dist::Zilla" => 0,
-    "perl" => "5.10"
+    "perl" => "v5.10.0"
   },
   "script_files" => []
 );

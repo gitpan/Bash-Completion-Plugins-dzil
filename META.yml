@@ -18,9 +18,9 @@ name: Bash-Completion-Plugins-dzil
 requires:
   Bash::Completion::Plugins::App::Cmd: 0
   Dist::Zilla: 0
-  perl: 5.10
+  perl: v5.10.0
 resources:
   bugtracker: https://github.com/hoelzro/bash-completion-plugins-dzil/issues
   homepage: https://github.com/hoelzro/bash-completion-plugins-dzil
   repository: https://github.com/hoelzro/bash-completion-plugins-dzil.git
-version: 0.01
+version: 0.02
